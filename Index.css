@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding:0;
+	-webkit-border-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	background:url(Fondo.jpg)grey;
+	background-size:cover; /*La imagen de fondo se ajuste*/
+	background-repeat: no-repeat;
+	font-family: "Roboto";
+
+	color:white;
+	font-size:16px;
+}
+
+.wrap{
+	width: 45%;
+	max-width: 1000px;
+	margin-left:39%; /*Centrar*/
+	margin-top:12%;
+}
+
+.widguet{
+	width: 40%;
+	margin:32px;
+}
+
+.widguet p{
+	display:inline-block;
+	margin-left: 1px;
+
+}
+
+.fecha{
+	font-family: /*Buscar en google fonts*/
+	font-size: 15px;
+	margin-bottom:5px;
+	width:50%;
+	text-align:center;
+	display: inline-flex;
+	margin-left: 10%;
+
+}
+
+.reloj{
+	font-family: /*Buscar guente e google fonts*/
+	width:100%;
+	padding: 20px;
+	font-size:60px;
+	text-align: center;
+	margin-top: 12%;
+	border-radius: 10px;
+	background-color:rgba(59, 56, 60, 0.5);
+}
+
+.reloj .caja-segundos{
+	font-size: 60%;
+}
+
+.reloj .segundos,
+.reloj .ampm{
+	font-size: 2rem;
+
+}
